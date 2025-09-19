@@ -1,0 +1,34 @@
+body{
+    font-size: 15px;
+}
+
+#content{
+    max-width: 60%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 70px;
+}
+
+h2, hr{
+    color:#035F9C
+}
+
+h1, h2{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.list{
+    line-height: 2;
+}
+
+img{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}

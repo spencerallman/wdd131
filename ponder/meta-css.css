@@ -6,7 +6,7 @@ body {
 #content{
     max-width: 60%;
     margin: 0 auto;
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 40px;
 }
 
