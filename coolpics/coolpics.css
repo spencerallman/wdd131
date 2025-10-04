@@ -1,0 +1,59 @@
+header, footer{
+    background-color: #3C7AFF;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.menu-btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+nav a{
+    color: white;
+    display: none;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid white;
+  margin: 0;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+section{
+    padding: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu-btn{
+    display: none;
+  }
+  nav a{
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
