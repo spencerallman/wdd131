@@ -32,8 +32,6 @@ h1{
 }
 
 .book{
-    border-top: 2px solid goldenrod;
-    border-bottom: 2px solid goldenrod;
     padding-top: 10px;
     margin-top: 5%;
     padding: 20px;
@@ -41,6 +39,8 @@ h1{
 
 footer{
     text-align: center;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
 }
 
 @media (min-width: 600px){
