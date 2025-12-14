@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+  
+  --primary-color:#165C48;
+  --secondary-color: #FFD700;
+  --accent1-color: #5A3E1B;
+  --accent2-color: white;
+
+  --heading-font: "Oswald";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+
+  --headline-color-on-white: var(
+    --primary-color
+  );
+  --headline-color-on-color: white;
+  --paragraph-color-on-white: var(
+    --primary-color
+  );
+  --paragraph-color-on-color: white;
+  --paragraph-background-color: var(--primary-color);
+  --nav-link-color: var(--primary-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: var(--primary-color);
+}
+
+body {
+  font-family: var(--paragraph-font);
+  margin: 0;
+  background-color: var(--accent2-color);
+  color: var(--paragraph-color-on-white);
+}
+
+header {
+  font-family: var(--heading-font);
+  background: var(--primary-color);
+  color: var(--headline-color-on-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: var(--heading-font);
+}
+
+.logo {
+  height: 60px;
+  border-radius: 8px;
+}
+
+nav {
+  background: var(--nav-background-color);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.75rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+  font-weight: bold;
+  font-family: var(--heading-font);
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+  margin-bottom: 1rem;
+}
+
+section p {
+  background: var(--accent2-color);
+  color: var(--paragraph-color-on-white);
+  padding: 1rem;
+}
+
+#history img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#differences img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#funfact {
+  text-align: center;
+  background: var(--secondary-color);
+  border-radius: 10px;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+#funfact h3 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+button {
+  background: var(--accent1-color);
+  color: var(--accent2-color);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: var(--primary-color);
+}
+
+footer {
+  background: var(--primary-color);
+  color: var(--headline-color-on-color);
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+  font-family: var(--paragraph-font);
+}
